@@ -1,0 +1,174 @@
+.pagination {
+  margin-bottom: 15px;
+}
+
+.loginForm input[type=text], 
+.loginForm input[type=password],
+.loginForm input[type=email],
+.loginForm input[type=date],
+.loginForm input[type=number],
+.loginForm input[type=date]{
+    margin-bottom:27px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    padding: 2px 1px;
+    font-size: 20px;
+    color: #878787;
+    box-shadow: none;
+    display:block;
+    border:none;
+    border-bottom:1px solid #878787;
+  }
+
+.loginForm select{
+  margin-bottom:27px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    padding: 2px 1px;
+    font-size: 20px;
+    color: #878787;
+    box-shadow: none;
+    display:block;
+    border:none;
+    border-bottom:1px solid #878787;
+
+}
+.form-group{
+  position:relative; 
+  margin-bottom:20px; 
+  }
+
+/*label animation*/
+.label-input{
+  position : relative;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:2px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+/* active state */
+  input:focus ~ label, input:valid ~ label{
+  left: -1px;
+  top:-20px;
+  font-size:14px;
+  color:#0050a6;
+  visibility :visible;
+}
+
+.bar{ 
+  display:block; width:100%; 
+  }
+.bar:before, .bar:after   {
+  content:'';
+  height:1.25px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#0069D9; 
+  transition:0.25s ease all; 
+  -moz-transition:0.25s ease all; 
+  -webkit-transition:0.25s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+  /* active state */
+.loginForm select:focus ~ .bar:before, .loginForm select:focus ~ .bar:after {
+  width:50%;
+}
+
+.loginForm input[type=text]:focus ~ .bar:before, .loginForm input[type=text]:focus ~ .bar:after {
+  width:50%;
+}
+.loginForm input[type=date]:focus ~ .bar:before, .loginForm input[type=date]:focus ~ .bar:after {
+  width:50%;
+}
+.loginForm input[type=password]:focus ~ .bar:before, .loginForm input[type=password]:focus ~ .bar:after {
+  width:50%;
+}
+.loginForm input[type=number]:focus ~ .bar:before, .loginForm input[type=number]:focus ~ .bar:after {
+  width:50%;
+}
+
+.loginForm select:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+
+.loginForm input[type=text]:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+
+.loginForm input[type=text]:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+.loginForm input[type=date]:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+.loginForm input[type=password]:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+.loginForm input[type=email]:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+  .loginForm input[type=number]:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+  .loginForm input[type=date]:focus   
+  {
+    /*border-bottom: 1.5px solid #66afe9;*/
+    outline:none; 
+  }
+.loginForm span{
+    color: #343A40;
+  }
+.loginForm label{
+    color: #878787;
+  }
+.loginForm h2{
+    color: #878787;
+  }
+
+.input-td{
+    /*background: transparent; */
+    /*width:115%;*/
+    outline:0;
+    /*margin: 0px 0px 0px -10px;*/
+    /*padding: 0 0 0 0; */
+/*    border: none;*/
+    }
+
+.button-journal{
+  float:right;
+  margin: 0px 5px 0px 0px;
+}
+.custom-1{
+background-color: #878787;
+}
+.date{
+  visibility :hidden;
+}
