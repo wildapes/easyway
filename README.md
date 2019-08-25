@@ -1,1 +1,1 @@
-clone the database and import to phpmyadmin as name easyway
+clone the database and import to phpmyadmin name it  "easyway"
